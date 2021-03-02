@@ -4,14 +4,27 @@
 "name": "Next Pwa Template",
 "icons": [
     {
-    "src": "favicon.ico",
-    "sizes": "64x64 32x32 24x24 16x16",
-    "type": "image/x-icon"
+        "src": "images/favicon.ico",
+        "sizes": "64x64 32x32 24x24 16x16",
+        "type": "image/x-icon"
+    },
+    {
+        "src": "/images/icon-maskable-192.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "maskable"
+    },
+    {
+        "src": "/images/icon-maskable-512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "maskable"
     }
 ],
-"start_url": "/?source=pwa",
-"display": "standalone",
-"theme_color": "#000000",
-"background_color": "#ffffff"
+    "start_url": "/?source=pwa",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "scope": "/",
+    "background_color": "#ffffff"
 }
   

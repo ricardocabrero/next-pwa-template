@@ -7,12 +7,14 @@ export default function Home() {
       <Head>
       <meta charset='utf-8' />
       <meta http-equiv='X-UA-Compatible' content='IE=edge' />
-      <meta name='viewport' content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no' />
+      <meta name='theme-color' content='#000000' />
+      <meta name='viewport' content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1' />
       <meta name='description' content='Description' />
       <meta name='keywords' content='Keywords' />
       <title>Next.js PWA Template</title>
-      <link rel='manifest' href='/manifest.json' />
+      <link rel='apple-touch-icon' href='/images/icon-maskable-512.png' />
       <link rel="icon" href="/favicon.ico" />
+      <link rel='manifest' href='/manifest.json' />
       </Head>
 
       <main className={styles.main}>
