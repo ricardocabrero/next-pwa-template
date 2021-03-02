@@ -1,22 +1,10 @@
-import Head from 'next/head'
+import CommonHead from '../components/CommonHead'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Head>
-      <meta charset='utf-8' />
-      <meta http-equiv='X-UA-Compatible' content='IE=edge' />
-      <meta name='theme-color' content='#000000' />
-      <meta name='viewport' content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=5' />
-      <meta name='description' content='Description' />
-      <meta name='keywords' content='Keywords' />
-      <title>Next.js PWA Template</title>
-      <link rel='apple-touch-icon' href='/images/icon-maskable-512.png' />
-      <link rel="icon" href="/favicon.ico" />
-      <link rel='manifest' href='/manifest.json' />
-      </Head>
-
+      <CommonHead description="description, x" keywords="keywords, x" title="Next.js PWA Template"/>  
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
