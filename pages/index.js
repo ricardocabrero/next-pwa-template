@@ -8,7 +8,7 @@ export default function Home() {
       <meta charset='utf-8' />
       <meta http-equiv='X-UA-Compatible' content='IE=edge' />
       <meta name='theme-color' content='#000000' />
-      <meta name='viewport' content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1' />
+      <meta name='viewport' content='width=device-width,initial-scale=1,minimum-scale=5,maximum-scale=1' />
       <meta name='description' content='Description' />
       <meta name='keywords' content='Keywords' />
       <title>Next.js PWA Template</title>
