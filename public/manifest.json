@@ -22,7 +22,7 @@
     }
 ],
     "scope": "/",
-    "start_url": "/",
+    "start_url": "https://next-pwa-template-git-main-ricardocabrero.vercel.app/",
     "display": "standalone",
     "theme_color": "#000000",
     "background_color": "#ffffff"
